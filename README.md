@@ -1,4 +1,4 @@
 my-order
 ========
 
-Food Ordering 
+Food Ordering was never easier
