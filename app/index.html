@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shopping</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{BASE_TAG}}
+
+    <link rel="stylesheet" href="assets/vendor.css">
+    <link rel="stylesheet" href="assets/shopping.css">
+  </head>
+  <body>
+    <script src="assets/vendor.js"></script>
+    <script src="assets/shopping.js"></script>
+    <script>
+      window.ShoppingENV = require('shopping/config/environment')['default'];
+      window.EmberENV = window.ShoppingENV.EmberENV;
+      window.Shopping = require('shopping/app')['default'].create(ShoppingENV.APP);
+    </script>
+  </body>
+</html>
