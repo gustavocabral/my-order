@@ -1,4 +1,8 @@
-# Shopping
+=======
+my-order
+========
+
+Food Ordering was never easier
 
 This README outlines the details of collaborating on this Ember application.
 
