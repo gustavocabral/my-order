@@ -1,0 +1,6 @@
+<div class="list-group">
+	{{#each table in model}}
+		{{#link-to 'tables.table' table.id class="list-group-item"}}{{table.name}}{{/link-to}}
+	{{/each}}
+</div>
+{{outlet}}
